@@ -1,14 +1,12 @@
 # clearnlp-clj
 
-A Clojure library designed to ... well, that part is up to you.
+A very simple clojure wrapper for the [ClearNLP](https://github.com/clir/clearnlp]) toolkit.
 
 ## Usage
 
-FIXME
+Pending!
 
-## License
+## TODO
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+1. Documentation
+2. Real tests

@@ -13,4 +13,5 @@
                  [edu.emory.clir/clearnlp-general-en-ner "3.1"]
                  [edu.emory.clir/clearnlp-general-en-ner-gazetteer "3.0"]
                  [org.flatland/ordered "1.5.3"]
-                 [clj-logging-config "1.9.12"]])
+                 [clj-logging-config "1.9.12"]]
+  :jvm-opts ["-Xmx8g"])
