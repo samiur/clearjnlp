@@ -1,7 +1,10 @@
 (ns clearnlp-clj.core-test
   (:require [clojure.test :refer :all]
-            [clearnlp-clj.core :refer :all]))
+            [clearnlp-clj.core :refer :all])
+  (:import (edu.emory.clir.clearnlp.util.lang TLanguage)))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest pipeline-test
+  (testing "pipeline"
+    (is (=
+          (clearnlp-clj.core/pipeline (TLanguage/ENGLISH))
+          0))))
